@@ -1,0 +1,45 @@
+{
+  "name": "magpie-better-claude-support",
+  "version": "0.4.2",
+  "description": "Magpie 原生 Claude Code 增强插件：完整原生工具链、@ultracode 多智能体编排、订阅耗尽自动切换 API 余额与双额度面板。Better Claude Code support for Magpie with native tools, @ultracode workflows, and automatic subscription-to-API credit failover.",
+  "author": "SpookySandwich",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "gateway.hooks.mjs",
+    "lib/",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "opencode",
+    "opencode-plugin",
+    "claude",
+    "claude-code",
+    "anthropic"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpookySandwich/magpie-better-claude-support.git"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "acorn": "8.15.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "magpie": {
+    "hooks": "./gateway.hooks.mjs",
+    "maxConcurrency": 0,
+    "icon": "https://raw.githubusercontent.com/yetone/magpie/main/internal/gui/assets/icons/claudecode-color.svg"
+  }
+}
