@@ -2,7 +2,7 @@
 
 English | [简体中文](README.md)
 
-[![npm](https://img.shields.io/npm/v/magpie-better-claude-support?color=cb3837&logo=npm)](https://www.npmjs.com/package/magpie-better-claude-support)
+[![CI](https://github.com/SpookySandwich/magpie-better-claude-support/actions/workflows/ci.yml/badge.svg)](https://github.com/SpookySandwich/magpie-better-claude-support/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![magpie](https://img.shields.io/badge/magpie-plugin-111827)](https://github.com/yetone/magpie)
 [![node](https://img.shields.io/badge/node-%E2%89%A524-3c873a)](package.json)
