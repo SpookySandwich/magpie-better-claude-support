@@ -2,6 +2,8 @@
 
 English | [简体中文](README.md)
 
+> **Archived.** This repository is no longer maintained. Use Magpie's built-in Claude integration instead.
+
 [![CI](https://github.com/SpookySandwich/magpie-better-claude-support/actions/workflows/ci.yml/badge.svg)](https://github.com/SpookySandwich/magpie-better-claude-support/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![magpie](https://img.shields.io/badge/magpie-plugin-111827)](https://github.com/yetone/magpie)
